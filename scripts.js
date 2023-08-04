@@ -10,9 +10,9 @@ let userPassword;
 
 // 4 задание
 let name = "Andrey";
-// alert(`hello ${1}`); // hello 1
-// alert(`hello ${"name"}`); // ? hello name
-// alert(`hello ${name}`); // ? hello Andrey
+alert(`hello ${1}`); // hello 1
+alert(`hello ${"name"}`); // ? hello name
+alert(`hello ${name}`); // ? hello Andrey
 
 // Математика
 // 1 задание
@@ -54,9 +54,9 @@ let a14 = " \t \n" - 2; // -2
 
 //3 задание
 
-// let b = Number(prompt("Первое число?", 1));
-// let c = Number(prompt("Второе число?", 2));
-// alert(c + b); // 12
+let b = Number(prompt("Первое число?", 1));
+let c = Number(prompt("Второе число?", 2));
+alert(c + b); // 12
 
 //Сравнения
 //1 задание
@@ -74,85 +74,85 @@ null === +"\n0\n"; //false
 //Циклы
 //1 задание
 
-// let i = 0;
-// while (++i < 5) {
-//   console.log(i);
-// }
-// // 1, 2, 3, 4
-// i = 0;
-// while (i++ < 5) {
-//   console.log(i);
-// }
+var i = 0;
+while (++i < 5) {
+  console.log(i);
+}
+// 1, 2, 3, 4
+i = 0;
+while (i++ < 5) {
+  console.log(i);
+}
 //1, 2, 3, 4, 5
 //здесь, в моем понимании, сначала идет операция сравнения, а потом уже увеличивается на единицу
 
 //2 задание
 
-// for (let i = 0; i < 5; i++) {
-//   console.log(i);
-// }
+for (let i = 0; i < 5; i++) {
+  console.log(i);
+}
 
-// for (let i = 0; i < 5; ++i) {
-//   console.log(i);
-// }
+for (let i = 0; i < 5; ++i) {
+  console.log(i);
+}
 
 // я проверил, да!!!..опять же, в моем понимании тут сначала операция сравнения.
 // в случае с первым циклом while еще до сравнения переменная инкремировалась
 
 //3 задание
 
-// for (let i = 2; i < 11; i += 2) {
-//   console.log(i);
-// }
+for (let i = 2; i < 11; i += 2) {
+  console.log(i);
+}
 
 //4 задание
-// let i = -1;
-// while (++i < 3) {
-//   alert(`number ${i}!`);
-// }
+i = -1;
+while (++i < 3) {
+  alert(`number ${i}!`);
+}
 
 //5 задание
 
-// let number = prompt("Введите число от 100 и больше");
+let number1 = prompt("Введите число от 100 и больше");
 
-// while (number !== null && Number(number) < 100) {
-//   number = prompt("Введите число от 100 и больше");
-// }
+while (number1 !== null && Number(number1) < 100) {
+  number1 = prompt("Введите число от 100 и больше");
+}
 
 // Ветвления
 //1 задание
 
-// const number = Number(prompt("Введите число между 0 и 3", ""));
+const number2 = Number(prompt("Введите число между 0 и 3", ""));
 
-// switch (number) {
-//   case 0:
-//     alert("Вы ввели число 0");
-//     break;
-//   case 1:
-//     alert("Вы ввели число 1");
-//     break;
-//   default:
-//     alert("Вы ввели число 2, а может и 3");
-//     break;
-// }
+switch (number2) {
+  case 0:
+    alert("Вы ввели число 0");
+    break;
+  case 1:
+    alert("Вы ввели число 1");
+    break;
+  default:
+    alert("Вы ввели число 2, а может и 3");
+    break;
+}
 
 //2 задание
 
-// let browser = "Opera";
+let browser = "Opera";
 
-// if (browser === "Edge") {
-//   alert("You've got the Edge!");
-// } else if (browser == "Chrome") {
-//   alert("You've got the Chrome!");
-// } else if (browser == "Firefox") {
-//   alert("You've got the Firefox!");
-// } else if (browser == "Safari") {
-//   alert("You've got the Safari!");
-// } else if (browser == "Opera") {
-//   alert("Okay we support these browsers too");
-// } else {
-//   alert("We hope that this page looks ok!");
-// }
+if (browser === "Edge") {
+  alert("You've got the Edge!");
+} else if (browser == "Chrome") {
+  alert("You've got the Chrome!");
+} else if (browser == "Firefox") {
+  alert("You've got the Firefox!");
+} else if (browser == "Safari") {
+  alert("You've got the Safari!");
+} else if (browser == "Opera") {
+  alert("Okay we support these browsers too");
+} else {
+  alert("We hope that this page looks ok!");
+}
 
 // Функции
 let users = ["dima", 1234];
